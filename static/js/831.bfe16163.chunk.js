@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_app=self.webpackChunkreact_app||[]).push([[831],{8831:function(e,n,p){p.r(n),p.d(n,{default:function(){return o}});var t,r=p(168),a=p(6444).ZP.h1(t||(t=(0,r.Z)(["\n  text-transform: uppercase;\n  padding: 270px 70px;\n"]))),u=p(3329),c=function(){return(0,u.jsx)(a,{children:"Welcome to phonebook app home page"})};function o(){return(0,u.jsx)(c,{})}}}]);
+//# sourceMappingURL=831.bfe16163.chunk.js.map
