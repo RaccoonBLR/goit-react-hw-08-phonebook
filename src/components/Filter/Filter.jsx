@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { selectFilterValue } from 'redux/selectors';
-import { setFilterValue } from 'redux/filterSlice';
+import { selectFilterValue } from 'redux/filter/selectors';
+import { setFilterValue } from 'redux/filter/slice';
 
 import { HiOutlineSearch } from 'react-icons/hi';
 

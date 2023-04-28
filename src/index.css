@@ -2,9 +2,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,18 +12,31 @@ code {
     monospace;
 }
 
-button {
-  cursor: pointer;
-  padding: 0px;
+input {
   border: none;
-  background-color: transparent;
 }
 
 ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-input {
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  margin: 0;
   border: none;
+  cursor: pointer;
+  background-color: transparent;
 }

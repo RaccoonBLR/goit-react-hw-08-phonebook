@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/contacts/operations';
 
 import { FiDelete } from 'react-icons/fi';
 import { BsDot } from 'react-icons/bs';
@@ -35,6 +35,5 @@ Contact.propTypes = {
     name: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
-    createdAt: PropTypes.string.isRequired,
   }).isRequired,
 };
